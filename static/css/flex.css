@@ -1,0 +1,27 @@
+.div-flex {
+  width: 50%;
+  height: 500px;
+  background-color: lightblue;
+  display: flex;
+  /* flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+.div-flex-item {
+  /* width: 100px; */
+  height: 100px;
+}
+
+.div-flex-item:nth-child(odd) {
+  background-color: pink;
+  order: 1;
+  flex: 0 1 20%;
+}
+
+.div-flex-item:nth-child(even) {
+  background-color: lightgreen;
+  order: 2;
+  flex: 0 2 20%;
+}
